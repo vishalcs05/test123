@@ -1,4 +1,4 @@
-# IC4-take-home-project
+# Take-home-project
 
 ### Application code to return all users details from json file
 
