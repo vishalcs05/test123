@@ -4,10 +4,10 @@
 
 ##### Explanation:
 
-1) Flask is used as application framework
-2) /api endpoint is giving the result in json
-3) /healthcheck endpoint is returning the health of application with http code 200, it also tells from which webserver request it reaching
-3) /addtosql endpoint it loading the csv in mysql if mysql table in already empty.
+1) Flask is used as application framework.
+2) `/api` endpoint is giving the result in json.
+3) `/healthcheck` endpoint is returning the health of application with http code 200, it also tells from which webserver is serving the request.
+3) `/addtosql` endpoint it loading the csv in mysql if mysql table in already empty.
 4) Using pymysql library to connect to mysql.
 
 
